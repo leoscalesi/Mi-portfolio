@@ -228,12 +228,8 @@ html {
   margin-left: 0%;
   margin-right: 0%;
   margin-top: 1.2%;
-  
-  
-  
- 
 
-
+  
 }
 
 #obradisponible{
@@ -282,13 +278,13 @@ ul >li >a:hover{
 .tituloobraautor{
 
   text-align: center;
- 
+
 }
 
 .titulosucursal{
 
   font-size: 25px;
-
+  
 }
 
 #linksucursal{
@@ -311,3 +307,5 @@ ul >li >a:hover{
   border-radius: 10px;
   
 }
+
+
