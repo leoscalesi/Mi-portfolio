@@ -1,8 +1,10 @@
 Mi Portfolio
 
-En este ocasion les presento mi primer pagina web responsiva utilizando HTML, Css y Bootstrap.
+En este ocasión les presento Mi Portfolio responsivo utilizando HTML, Css y Bootstrap.
 
-Puedes ver el proyecto aqui:
+Puedes ver el proyecto aquí:
+
+https://frabjous-cascaron-d58cc6.netlify.app/
 
 
 
