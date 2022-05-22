@@ -4,7 +4,7 @@ En este ocasión les presento Mi Portfolio responsivo utilizando HTML, Css y Boo
 
 Puedes ver el proyecto aquí:
 
-https://frabjous-cascaron-d58cc6.netlify.app/
+https://luminous-centaur-ab80ad.netlify.app/
 
 
 
