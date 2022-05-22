@@ -1,93 +1,100 @@
-.border-box{
+.border-box {
 
     box-sizing: border-box;
     background-color:aqua;
-
-    
+  
 }
   
 .row::after {
+    
     content: "";
     clear: both;
     display: table;
-  }
   
-  [class*="col-"] {
+}
+  
+[class*="col-"] {
+    
     float: left;
     padding: 15px;
-  }
+ 
+}
   
-  input{
+
+input {
     
     padding:7px;
     border-radius: 5px;
     
-    
-  }
-  th{
+}
+  
+th {
 
     background-color: limegreen;
+
 }
 
-td:nth-child(even){
-    
+td:nth-child(even) {
     
     text-align: right;
+
 }
 
-tr:nth-child(odd){
+tr:nth-child(odd) {
 
   background-color: white;
+
 }
 
-tr:nth-child(even){
+tr:nth-child(even) {
 
     background-color: lightsteelblue;
+
 }
 
-th,td{
-    
+th,td {
     
     border: solid 1px black;
-    
     
 }
   
 html {
   
     font-family: "Lucida Sans", sans-serif;
-  }
   
-  .header {
+}
+  
+.header {
+    
     background-color: teal;
     color:white;
     padding: 15px;
     text-align: center;
     font-family: 'Tangerine';
     border-radius: 10px;
-    
     text-shadow: 4px 4px 4px #aaa;
-
     animation-name: imagenencabezado;
     animation-duration: 5s;
-  }
   
-  @keyframes imagenencabezado {
+}
+  
+@keyframes imagenencabezado {
+    
     from {color: white;}
     to {color: black;}
-  }
+
+}
   
-  .menu ul {
+.menu ul {
+    
     list-style-type: none;
     margin: 0;
     padding: 0;
 
-    
-
-    
-  }
+}
   
-  .menu li {
+.menu li {
+    
     border: solid 1px black;
     background-color:lightblue;
     border-radius: 10px;
@@ -95,25 +102,24 @@ html {
     margin-bottom: 7px;
     color: #ffffff;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    
     margin-top: 30px;
 
-
-    
-  }
+}
   
-  .menu li:hover {
+.menu li:hover {
+    
     background-color:greenyellow;
     
-  }
+}
   
-  .link:hover{
+.link:hover{
      
     background-color:greenyellow;
     
-  }
+}
   
-  .aside {
+.aside {
+    
     background-color:lightseagreen;
     padding: 15px;
     color: #ffffff;
@@ -121,48 +127,36 @@ html {
     font-size: 14px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 
-    
-  }
-  
-  .asidesucursales{
-
-    text-align: center;
-  }
-
-  .form{
-    
-  background-color:lightgrey;
-  border-radius: 10px;
-  width:80%;
-  padding:5%;
-  padding-bottom: 100px;
-  
-  
 }
-  .footer {
+
+
+.footer {
+    
     background-color:teal;
     color:black;
     text-align: center;
     font-size: 10px;
     padding: 5px;
-
     border-radius: 10px;
     
-  }
+}
 
-  /* ESTILO ICONOS */
-  p >  a{
+/* ESTILO ICONOS */
+p >  a {
     
     font-size: 35px;
     color:black;
-  }
+  
+}
   
   /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
-  }
+[class*="col-"] {
+    
+  width: 100%;
+
+}
   
-  @media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) {
     /* For tablets: */
     
     .col-s-1 {width: 8.33%;}
@@ -180,8 +174,10 @@ html {
     .col-s-10 {width: 83.33%;}
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
-  }
-  @media only screen and (min-width: 768px) {
+
+}
+  
+@media only screen and (min-width: 768px) {
     /* For desktop: */
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
@@ -195,32 +191,28 @@ html {
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
-  }
 
-  
-  
-
-  #botonenvio{
-    
-    width:80px;
-    background-color: green;
-    
 }
+
 
 /* ALINEACION AL CENTRO DE LAS IMAGENES*/
 .carousel-inner{
 
   text-align: center;
   padding-top: 40px;
+
 }
 
 .main{
+  
   background-color: lawngreen;
+
 }
 
 #titulotamaño{
 
   font-size: 80px;
+
 }
 
 #alinearmargenesbody{
@@ -229,7 +221,6 @@ html {
   margin-right: 0%;
   margin-top: 1.2%;
 
-  
 }
 
 #obradisponible{
@@ -238,35 +229,21 @@ html {
   animation-name: animacionobrasdisponibles;
   animation-duration: 5s;
   
-
 }
 
 @keyframes animacionobrasdisponibles {
   from {color: yellow;}
   to {color: red;}
+
 }
 
-table{
-
-  margin:0 auto;
-}
 
 #asideobras{
   
   text-align: center;
   
-  
 }
 
-.nuestrosclientes{
-
-  margin-left: 8%;
-}
-
-#titulonuestrosclientes{
-
-  padding-left: 0%;
-}
 
 ul >li >a:hover{
   
@@ -281,25 +258,12 @@ ul >li >a:hover{
 
 }
 
-.titulosucursal{
-
-  font-size: 25px;
-  
-}
-
-#linksucursal{
-
-  font-size: 80%;
-  color: whitesmoke;
-  
-  
-}
-
 
 .row1{
   
   background-color:lightsteelblue;
   margin-top: 1%;
+
 }
 
 #estilonav{
